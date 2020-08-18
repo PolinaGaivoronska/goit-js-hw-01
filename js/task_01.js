@@ -1,4 +1,12 @@
-const name = '«Генератор защитного поля»'; // Write code on this line
-const price = 1000; // Write code on this line
-firstMessage = `Выбран $(name), цена за штуку $(price) кредитов`; 
-console.log(firstMessage);// Write code on this line
+ const name = '«Генератор защитного поля»'; 
+ const price = 1000;
+  
+ if (price = 1000) {
+    firstMessage = `Выбран ${name}, цена за штуку ${price} кредитов`;
+    console.log(firstMessage);
+ }
+ 
+ else (price = 2000) {
+    secondMessage = `Выбран ${name}, цена за штуку ${price} кредитов`; 
+    console.log(secondMessage);
+ }
